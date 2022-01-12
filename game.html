@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/gamestyles.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/game.css"/>
    
     <title>QUIZ GAME PLAY</title>
 </head>
 <body>
-    <header class="timer">
-        <h1>Timer count down</h1>
+    <header class="gameStats">
+        <h1 id="timer-set"></h1>
+        <h2 class="score-title">Scores:</h2>
+        <h2 class="score-points">0</h2>
+
     </header>
         <div class="container">
             <div id="question-container" class="hide"></div>
-            <div id="question">Question</div>
+            <h2 id="question"></h2>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn"><Button>answer 1</Button>
-                <button class="btn"><Button>answer 2</Button>
-                <button class="btn"><Button>answer 3</Button>
-                <button class="btn"><Button>answer 4</Button>
+                <button id="answer1"></button>
+                <button id="answer2"></button>
+                <button id="answer3"></button>
+                <button id="answer4"></button>
             </div>
-            <div class="control">
-                <button id="next-btn" class="next-btn-hide">Next</button>
-            </div>
-
-
+            
         </div>
 
-        <script src="./assets/js/js.script"></script>
+
+        <script src="./assets/js/script.js"></script>
 </body>
 </html>

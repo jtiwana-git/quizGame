@@ -23,7 +23,7 @@ header {
 }
 
 header h1 {
-    margin-left: 300px;
+    margin-left: 410px;
 }
 
 .container {
@@ -52,26 +52,16 @@ header h1 {
     display: flex;
     margin-top: 10px;
    
-    
-
-   
 }
 
-.container .start-button{
-    background-color: red;
+#start-btn{
+    background-color:red;
     width: 100px;
     height: 100px;
     margin-bottom: 70px;
-    margin-left: 150px;
-    justify-content: center;
-    font-weight: bolder;
+    margin-left: 200px;
     font-size: 18px;
+    width: 100px;
+  
+
 }
-
-
-
-
-
-
-
-
